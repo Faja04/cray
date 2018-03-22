@@ -1,0 +1,31 @@
+<ui:fragment xmlns="http://www.w3.org/1999/xhtml"
+             xmlns:ui="http://java.sun.com/jsf/facelets"
+             xmlns:b="http://bootsfaces.net/ui">
+
+    <ui:remove>
+        <!--
+                Hint to editors: The menus follow the Chicago style of capitalization. Please capitalize everything but the "smaller" words.
+             -->
+    </ui:remove>
+    <b:navBar brand="BootsFaces"
+              inverse="true" brandHref="#"
+              fixed="top">
+        <b:container>
+            <b:navbarLinks>
+                <b:navLink/>
+                <b:navLink/>
+                <b:navbarLinks>
+                    <b:navLink outcome="index" value="Home" iconAwesome="home"/>
+                </b:navbarLinks>
+                <b:dropMenu value="Examples">
+                    <b:navLink value="Sign in" outcome="/signin" icon="play-circle"/>
+                </b:dropMenu>
+            </b:navbarLinks>
+
+            <b:navbarLinks pull="right">
+                <b:navLink href="http://showcase.bootsfaces.net/" value="Showcase" iconAwesome="desktop"/>
+            </b:navbarLinks>
+        </b:container>
+    </b:navBar>
+
+</ui:fragment>
