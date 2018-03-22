@@ -1,6 +1,6 @@
 package com.cray.service;
 
-import com.cray.dao.UserProfileDao;
+import com.cray.dao.UserProfileRepository;
 import com.cray.model.UserProfile;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import java.util.List;
 public class UserProfileServiceImpl implements UserProfileService {
 
     @Autowired
-    UserProfileDao dao;
+    UserProfileRepository dao;
 
     @Override
     public UserProfile findById(int id) {

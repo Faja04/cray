@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 
-public abstract class AbstractDao<PK extends Serializable, T> {
+public abstract class AbstractRepository<PK extends Serializable, T> {
 
     private final Class<T> persistentClass;
     @Autowired
     private SessionFactory sessionFactory;
 
     @SuppressWarnings("unchecked")
-    public AbstractDao() {
+    public AbstractRepository() {
         persistentClass = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[1];
     }
 

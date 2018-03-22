@@ -14,7 +14,7 @@ import java.util.Date;
 
 @Repository("tokenRepositoryDao")
 @Transactional
-public class HibernateTokenRepositoryImpl extends AbstractDao<String, PersistentLogin>
+public class HibernateTokenRepositoryImpl extends AbstractRepository<String, PersistentLogin>
         implements PersistentTokenRepository {
 
     static final Logger logger = LoggerFactory.getLogger(HibernateTokenRepositoryImpl.class);

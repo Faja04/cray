@@ -45,6 +45,7 @@
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.2-b02" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.0.5.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
