@@ -37,7 +37,7 @@ public class LoginBean {
 
     public void login() {
         if ("BootsFaces".equalsIgnoreCase(username) && "rocks!".equalsIgnoreCase(password)) {
-            FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "", "Congratulations! You've successfully logged in.");
+            FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO, "", "Congratulations! You've successfully logged in");
             FacesContext.getCurrentInstance().addMessage("loginForm:password", msg);
 
         } else {
