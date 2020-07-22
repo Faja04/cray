@@ -15,7 +15,7 @@
         <java.version>1.8</java.version>
         <springframework.version>5.2.3.RELEASE</springframework.version>
         <springsecurity.version>5.3.3.RELEASE</springsecurity.version>
-        <hibernate.version>5.2.14.Final</hibernate.version>
+        <hibernate.version>5.4.18.Final</hibernate.version>
     </properties>
 
     <repositories>
