@@ -15,7 +15,7 @@
         <java.version>1.8</java.version>
         <springframework.version>5.2.8.RELEASE</springframework.version>
         <springsecurity.version>5.3.3.RELEASE</springsecurity.version>
-        <hibernate.version>5.4.18.Final</hibernate.version>
+        <hibernate.version>5.4.28.Final</hibernate.version>
     </properties>
 
     <repositories>
@@ -93,7 +93,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>6.1.5.Final</version>
+            <version>6.2.0.Final</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
         <dependency>
